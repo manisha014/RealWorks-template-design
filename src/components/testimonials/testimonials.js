@@ -2,6 +2,7 @@ import React from 'react';
 // import Testimonial from './testimonial/testimonial';
 // import img from '../../images/image.svg';
 import Carousel from './carousel/carousel';
+// import Slick from './slick-testimonial/slick-testimonial';
 const testimonials=()=>{
     return(
         <div id="testimonials">

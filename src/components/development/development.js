@@ -2,8 +2,8 @@ import React from 'react';
 import Part from './part/part';
 import img1 from '../../images/Group 3 4.png';
 import img2 from '../../images/Frame 4.png';
-import Carousel from './carousel/carousel';
-// import Slick from './slick/slick';
+// import Carousel from './carousel/carousel';
+import Slick from './slick/slick';
 // import img3 from '../../images/Group.png';
 import img4 from '../../images/Group 143 3.png';
 import img5 from '../../images/Group 6.png';
@@ -44,8 +44,8 @@ const development=()=>{
                     it to make a type specimen book."
                     >
                     </Part>
-                    <div className={classes.image}>
-                        <Carousel></Carousel>
+                    <div>
+                        <Slick></Slick>
                     </div>
             </div>
             <div className={classes.content}>

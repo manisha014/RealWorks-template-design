@@ -1,17 +1,24 @@
 import React from 'react';
 import Slider from 'react-slick';
 import img from '../../../images/Group.png';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './slick.css';
+// import img1 from '../../../images/Combined Shape (1).png';
+
 const slick=(props)=>{
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed:5000,
       };
 
       return(
-          <div style={{width:"50%", height:"50%"}}>
+          <div>
                 <Slider {...settings}>
               <img
                 src={img}
