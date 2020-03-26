@@ -66,7 +66,7 @@ const header=()=>{
                                     to="FAQ"
                                     spy={true}
                                     smooth={true}
-                                    offset={0}
+                                    offset={50}
                                     duration= {500}>FAQ</Link>
                             {/* </Nav.Link> */}
                         </Nav.Item>

@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './rightPart.module.scss';
-import Button from './Button';
+import Button from '../Button/Button';
 const rightPart=(props)=>{
     return(
         <div className={classes.content}>

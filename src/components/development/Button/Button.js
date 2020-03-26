@@ -1,5 +1,5 @@
 import React from 'react';
-
+// import classes from './button.module.scss';
 const button=(props)=>{
     const style={
         width: "30%",
@@ -11,7 +11,7 @@ const button=(props)=>{
         // backgroundColor: {props.bgColor}
     }
     return(
-        <button style={style}>{props.children}</button>
+            <button style={style}>{props.children}</button>     
     )
 }
 

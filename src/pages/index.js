@@ -6,6 +6,7 @@ import Development from '../components/development/development';
 import Testimonials from '../components/testimonials/testimonials';
 import Subscribe from '../components/subscribe/subscribe';
 import Footer from '../components/footer/footer';
+import FAQ from '../components/FAQ/faq';
 const page=()=>{
     return(
         <div>
@@ -15,6 +16,7 @@ const page=()=>{
             <Development></Development>
             <Testimonials></Testimonials>
             <Subscribe></Subscribe>
+            <FAQ></FAQ>
             <Footer></Footer>
         </div>
     )
