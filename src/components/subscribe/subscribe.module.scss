@@ -1,0 +1,32 @@
+.subscribeSection
+{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../../images/mockup2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // height: rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.5rem 0;
+    // padding-left: 9rem;
+    text-align: center;
+}
+
+.heading
+{
+    font-size: 3rem;
+}
+
+.subscribeButton{
+    width: 10%;
+    border-radius: 5px;
+    border: none;
+    background-color: #c81f40;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+    margin-top: 3rem;
+}

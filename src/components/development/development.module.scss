@@ -1,0 +1,35 @@
+.outer
+{
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    margin: 3rem 9rem;
+}
+
+.content
+{
+    display:flex;
+    margin: 15rem 0;
+    // width:50%;
+}
+
+.margin
+{
+    margin-top: 8rem;
+    display: flex;
+}
+
+.leftImage
+{
+    width: 120%;
+}
+
+.rightImage
+{
+    width: 120%;
+    text-align: center;
+}
+
+.middleContent
+{
+    padding-left: 18rem;
+}

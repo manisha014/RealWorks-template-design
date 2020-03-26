@@ -1,0 +1,22 @@
+.mainSection
+{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../../images/MacBookPro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 12.5rem;
+    padding-left: 9rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+h1{
+    font-size: 3rem;
+}
