@@ -1,5 +1,4 @@
 import React from 'react';
-// import {Link} from 'gatsby';
 import { Link } from "react-scroll";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -73,26 +72,6 @@ const header=()=>{
                     </Nav>
                     </Navbar.Collapse>
                 </Navbar>
-            {/* <nav>
-                <ul>
-                    <li>
-                        <Link>Home</Link>
-                    </li>
-                    <li>
-                        <Link>Features</Link>
-                    </li>
-                    <li>
-                        <Link>Development</Link>
-                    </li>
-                    <li>
-                        <Link>Testimonials</Link>
-                    </li>
-                    <li>
-                        <Link>FAQ</Link>
-                    </li>
-                </ul>
-            </nav> */}
-
         </header>
     )
 }

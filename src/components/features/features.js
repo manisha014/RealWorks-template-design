@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../images/Shape.svg';
+import image from '../../images/shape.svg';
 import Feature from './feature/feature';
 const features=()=>{
     return(

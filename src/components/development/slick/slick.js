@@ -1,10 +1,10 @@
 import React from 'react';
 import Slider from 'react-slick';
-import img from '../../../images/Group.png';
+import img from '../../../images/frame3.png';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './slick.css';
-// import img1 from '../../../images/Combined Shape (1).png';
+
 
 const slick=(props)=>{
     const settings = {
@@ -23,19 +23,15 @@ const slick=(props)=>{
               <img
                 src={img}
                 alt="First slide"
-                // height="50%" width="35%"
               />  
               <img
                 src={img}
                 alt="First slide"
-                // height="50%" width="35%"
               />  
               <img
                 src={img}
                 alt="First slide"
-                // height="50%" width="35%"
               />  
-
         </Slider>
           </div>
         

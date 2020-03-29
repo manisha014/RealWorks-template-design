@@ -1,17 +1,8 @@
 import React from 'react';
-// import classes from './button.module.scss';
+import './button.css';
 const button=(props)=>{
-    const style={
-        width: "30%",
-        borderRadius: "50px",
-        backgroundColor:"#b83344",
-        color:"white",
-        border:"none",
-        padding:"3px"
-        // backgroundColor: {props.bgColor}
-    }
     return(
-            <button style={style}>{props.children}</button>     
+            <button className={props.color==="primary" ? "btn maroon" : "btn gray"}>{props.children}</button>     
     )
 }
 

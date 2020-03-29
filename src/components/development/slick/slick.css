@@ -3,10 +3,6 @@
     margin-left: 8rem;
 }
 
-/* .slick-prev
-{
-    visibility: hidden;
-} */
 .slick-prev
 {
     left: -100px;
@@ -21,10 +17,6 @@
 {
     content: url('../../../images/left.png');
     opacity: 1;
-    /* background-image: ;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* color: black; */
 }
 .slick-next::before
 {

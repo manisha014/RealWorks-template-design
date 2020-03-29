@@ -2,8 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    /* width: 45%; */
-    padding: 10px 20px;
+    padding: 20px;
     border:1px solid #dadada;
     margin: 10px;
   }
@@ -14,17 +13,12 @@
     cursor: pointer;
     display: flex;
     position: relative;
-    /* align-items: center; */
     border: none;
     padding: 0;
     outline: none;
     transition: background-color 0.6s ease;
   }
 
-  /* .accordion-title:hover,
-  .active {
-    background-color: #ccc;
-  } */
   .accordion-title:focus{
     outline: none;
   }
@@ -33,24 +27,15 @@
     content: '\002B';
     color: #777;
     position: absolute;
-    /* font-weight: bold; */
-    /* float: right; */
     right: -5px;
     font-size: 2rem;
+    top: -13px;
   }
   
   .active:after {
     content: "\2212";
   }
-  /* .accordion-icon {
-    margin-left: auto;
-    transition: transform 0.6s ease;
-  }
-  
-  .rotate {
-    transform: rotate(90deg);
-  } */
-  
+    
   .accordion-content {
     background-color: white;
     overflow: hidden;
@@ -58,9 +43,9 @@
     transition: max-height 0.6s ease;
   }
   
-  .accordion-text {
+  /* .accordion-text {
     font-weight: 400;
     font-size: 14px;
-    /* padding: 18px; */
+    margin-bottom: 0;
   }
-  
+   */

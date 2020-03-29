@@ -1,5 +1,4 @@
 import React from 'react';
-// import image from '../../images/Shape.svg';
 import classes from './feature.module.scss';
 const feature=(props)=>{
     return(

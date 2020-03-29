@@ -20,10 +20,7 @@ const Accordion = (props) => {
   return (
     <div className="accordion-section">
       <button className={active ? 'accordion-title active': 'accordion-title'} onClick={toogleActive}>
-        <p style={titleStyle}>{props.title}</p>
-        {/* <span className={active ? 'accordion-icon rotate': 'accordion-icon'}>
-            > 
-        </span> */}
+        <span style={titleStyle}>{props.title}</span>
       </button>
 
       <div
