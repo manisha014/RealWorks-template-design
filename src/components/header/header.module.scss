@@ -20,3 +20,16 @@
     margin-left: 5px;
 }
 
+@media (max-width:575px)
+{
+    .header {
+        padding: 0 4rem;
+    }
+}
+
+@media (max-width:480px)
+{
+    .header {
+        padding: 0 1.5rem;
+    }
+}

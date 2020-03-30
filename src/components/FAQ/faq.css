@@ -21,3 +21,37 @@
     flex-direction: column;
 }
 
+@media (max-width:991px)
+{
+    .outer{
+        display: block;
+    }
+    .inner{
+        width: 100%;
+    }
+}
+
+@media (max-width:767px)
+{
+    .faqWrapper{
+        padding: 4rem 8rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:575px)
+{
+    .faqWrapper{
+        padding: 4rem 5rem;
+    }
+}
+
+@media (max-width:320px)
+{
+    .faqWrapper{
+        padding: 4rem 1.5rem;
+    }
+}

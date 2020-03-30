@@ -10,7 +10,7 @@ import Slick from './slick/slick';
 const development=()=>{
     return(
         <div id="development" className={classes.developmentSection}>
-            <div className={`${classes.content} ${classes.marginTop8}`}>
+            <div className={`${classes.marginTop8} ${classes.responsiveReverse}`}>
                 <Part btnText="LIVE" color="primary"
                     heading="Enjoy a simplified General Tenancies Agreement"
                     text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
@@ -34,7 +34,7 @@ const development=()=>{
                     >
                 </RightPart>
             </div>
-            <div className={classes.content}>
+            <div className={` ${classes.responsiveReverse}`}>
                 <Part btnText="COMING SOON"
                     heading="Give your tenants a simple mobile signing experience"
                     text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
@@ -58,7 +58,7 @@ const development=()=>{
                     >
                 </RightPart>
             </div>
-            <div className={classes.content}>
+            <div className={` ${classes.responsiveReverse}`}>
                 <Part btnText="COMING SOON"
                     heading="Reduce risk with automated register of events"
                     text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 

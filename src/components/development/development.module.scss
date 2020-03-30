@@ -5,7 +5,7 @@
     margin: 0rem 9rem;
 }
 
-.content
+.content, .responsiveReverse
 {
     display:flex;
     margin: 15rem 0;
@@ -26,3 +26,50 @@
     text-align: center;
 }
 
+@media (max-width:1199px)
+{
+    .content
+    {
+        display:block;
+        margin: 10rem 0;
+    }
+
+    .responsiveReverse{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    .image{
+        width:60%;
+    }
+
+    .leftImage, .rightImage
+    {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+}
+
+@media (max-width:575px)
+{
+    .developmentSection {
+        margin: 0 7rem;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .responsiveReverse {
+        margin: 9rem 0;
+    }
+}
+
+@media (max-width:480px)
+{
+    .developmentSection {
+        margin: 0 6rem;
+    }
+}

@@ -1,9 +1,10 @@
 import React from 'react';
 import image from '../../images/shape.svg';
 import Feature from './feature/feature';
+import classes from './features.module.scss';
 const features=()=>{
     return(
-        <div id="features" style={{display: "flex", padding:"0rem 9rem"}}>
+        <div id="features" className={classes.features}>
             <Feature
                 img={image}
                 feature="Save Time"

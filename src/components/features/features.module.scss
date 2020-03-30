@@ -1,0 +1,25 @@
+.features{
+    display: flex;
+    padding: 0 9rem;
+}
+
+@media (max-width:991px)
+{
+    .features{
+        padding: 0 6rem;
+    }
+}
+
+@media (max-width:767px)
+{
+    .features{
+        display: block;
+    }
+}
+
+@media (max-width:480px)
+{
+    .features{
+        padding: 0 4rem;
+    }
+}

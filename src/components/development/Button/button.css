@@ -29,3 +29,10 @@
 .btn:active,.btn:focus{
     outline: 0;
 }
+
+@media (max-width:480px)
+{
+    .btn, .gray {
+        width: 70%;
+    }
+}

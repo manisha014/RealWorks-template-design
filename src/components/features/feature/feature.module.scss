@@ -28,3 +28,20 @@
     }
 }
 
+@media (max-width:767px)
+{
+    .feature
+    {
+        margin: 6rem 0rem;
+        width: 100%;
+    }
+}
+
+@media (max-width:575px)
+{
+    .feature
+    {
+        margin: 4rem 0rem;
+    }
+}
+

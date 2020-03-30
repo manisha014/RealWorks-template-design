@@ -33,10 +33,49 @@
     background-color: transparent;
 }
 
-@media screen and (max-width:1199px)
+@media (max-width:1199px)
 {
     .heading
     {
         font-size: 2.8rem;
+    }
+
+    .subscribeButton
+    {
+        padding: 0.8rem 2rem;
+    }
+}
+
+@media (max-width:991px)
+{
+    .heading
+    {
+        font-size: 2.5rem;
+    }
+
+    .subscribeButton
+    {
+        padding: 0.6rem 2rem;
+    }
+}
+
+@media (max-width:991px)
+{
+    .subscribeSection {
+        padding: 6rem 12rem;
+    }
+}
+
+@media (max-width:575px)
+{
+    .subscribeSection {
+        padding: 4rem 7rem;
+    }
+}
+
+@media (max-width:480px)
+{
+    .subscribeSection {
+        padding: 4rem;
     }
 }

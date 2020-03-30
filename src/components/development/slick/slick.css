@@ -23,3 +23,19 @@
     content: url('../../../images/right.png');
     opacity: 1;
 }
+
+@media (max-width:1199px)
+{
+    .slick-slider{
+        margin-left: 0;
+        margin-bottom: 5rem;
+        width: 15rem;
+    }
+}
+
+@media (max-width:767px)
+{
+    .slick-slider{
+        width: 13rem;
+    }
+}
