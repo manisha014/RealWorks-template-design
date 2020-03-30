@@ -39,6 +39,7 @@ h1{
 {
     .mainSection{
         padding: 6.5rem 4rem;
+        text-align: center;
     }
 
     .mainSection h1 {
@@ -50,7 +51,10 @@ h1{
 {
     .mainSection {
         padding: 6.5rem 2rem;
-        text-align: center;
+    }
+
+    .mainSection h1 {
+        font-size: 2rem;
     }
 }
     
