@@ -38,4 +38,36 @@
     .slick-slider{
         width: 13rem;
     }
+
+    .slick-prev::before
+    {
+        content: url('../../../images/leftSmall.png');
+    }
+    .slick-next::before
+    {
+        content: url('../../../images/rightSmall.png');
+    }
+    .slick-prev
+    {
+        left: -65px;
+    }
+    .slick-next
+    {
+        right: -50px;
+    }
+}
+
+@media (max-width:480px)
+{
+    .slick-slider {
+        width: 10rem;
+    }
+    .slick-prev
+    {
+        left: -50px;
+    }
+    .slick-next
+    {
+        right: -30px;
+    }
 }

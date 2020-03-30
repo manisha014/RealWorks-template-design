@@ -43,6 +43,10 @@
 
 @media (max-width:767px)
 {
+    .outer
+    {
+        margin: 4rem 8rem;
+    }
     .review{
         padding: 0 1rem;
     }
@@ -50,7 +54,24 @@
 
 @media (max-width:575px)
 {
-    .review{
-        padding: 0;
+    .outer
+    {
+        margin: 4rem 6rem;
+    }
+}
+
+@media (max-width:575px)
+{
+    .outer
+    {
+        margin: 4rem 5rem;
+    }
+}
+
+@media (max-width:320px)
+{
+    .outer
+    {
+        margin: 4rem;
     }
 }

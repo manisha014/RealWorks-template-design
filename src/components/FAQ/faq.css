@@ -34,7 +34,7 @@
 @media (max-width:767px)
 {
     .faqWrapper{
-        padding: 4rem 8rem;
+        padding: 4rem 6rem;
     }
 
     .heading {
@@ -46,6 +46,13 @@
 {
     .faqWrapper{
         padding: 4rem 5rem;
+    }
+}
+
+@media (max-width:480px)
+{
+    .faqWrapper{
+        padding: 4rem 3rem;
     }
 }
 

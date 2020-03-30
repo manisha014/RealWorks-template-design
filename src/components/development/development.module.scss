@@ -18,7 +18,7 @@
 
 .leftImage, .rightImage
 {
-    width: 120%;
+    width: 100%;
 }
 
 .rightImage
@@ -46,18 +46,21 @@
 
     .leftImage, .rightImage
     {
-        width: 100%;
+        // width: 100%;
         margin-bottom: 5rem;
     }
 
 }
 
-@media (max-width:575px)
+@media (max-width:767px)
 {
     .developmentSection {
         margin: 0 7rem;
     }
+}
 
+@media (max-width:575px)
+{
     .image {
         width: 100%;
     }
@@ -70,6 +73,13 @@
 @media (max-width:480px)
 {
     .developmentSection {
-        margin: 0 6rem;
+        margin: 0 4.5rem;
+    }
+}
+
+@media (max-width:320px)
+{
+    .developmentSection {
+        margin: 0 4rem;
     }
 }
