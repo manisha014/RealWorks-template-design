@@ -5,7 +5,8 @@ const faq=()=>{
     const accordionTextStyle={
         fontWeight: "400",
         fontSize: "14px",
-        marginBottom: "0"
+        marginBottom: "0",
+        marginTop: "8px"
       }
     return(
         <div id="FAQ" className="faqWrapper">

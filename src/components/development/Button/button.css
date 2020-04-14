@@ -1,4 +1,4 @@
-.btn
+.btnDevelopment
 {
     width: 30%;
     border-radius: 50px;
@@ -9,7 +9,7 @@
 .gray{
     width:40%;
     background-color: #555555;
-    border: 2px solid #555555;
+    border: 1px solid #555555;
 }
 .gray:hover{
     color: #555555;
@@ -17,7 +17,7 @@
 }
 .maroon{
     background-color: #b83344;
-    border: 2px solid #b83344;
+    border: 1px solid #b83344;
 }
 
 .maroon:hover

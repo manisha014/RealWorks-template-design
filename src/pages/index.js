@@ -7,6 +7,9 @@ import Testimonials from '../components/testimonials/testimonials';
 import Subscribe from '../components/subscribe/subscribe';
 import FAQ from '../components/FAQ/faq';
 import Footer from '../components/footer/footer';
+import '../components/setting.scss';
+
+    
 const page=()=>{
     return(
         <div>
