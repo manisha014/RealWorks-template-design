@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import classes from './header.module.scss';
+import './header.module.scss';
 import logo from '../../images/logo.png';
 const header=()=>{
     return(
@@ -11,7 +12,7 @@ const header=()=>{
                 <img src={logo} alt="logo"></img>
                 <p className={classes.brandName}><strong> Real</strong>works</p>
                 {/* <Navbar.Brand className={classes.white}><strong> Real</strong>works</Navbar.Brand> */}
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle className="toggle" aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav activeKey="/home">
                         <Nav.Item className={classes.navItem}>
